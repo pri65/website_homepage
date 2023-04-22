@@ -1,0 +1,12 @@
+.main-container {
+    background-color: rgb(222, 246, 246);
+}
+
+.contrast-color {
+    color: rgb(17, 141, 171);
+}
+
+.card-image {
+    width:20% !important; 
+    margin-right:20px
+}

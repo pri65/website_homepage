@@ -47,7 +47,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-md-3">
-              <h5>Subscribe to our news</h5>
+              <h5 className="contrast-color">Subscribe to our news</h5>
               <ul className="list-unstyled">
                 <li>
                   <p>For product announcements and exclusive insights</p>
@@ -59,7 +59,7 @@ const Footer = () => {
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                     />
-                    <Button variant="primary" id="button-addon2">
+                    <Button variant="info" id="button-addon2">
                       Subscribe
                     </Button>
                   </InputGroup>

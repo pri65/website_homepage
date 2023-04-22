@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import { PersonCircle } from 'react-bootstrap-icons';
 
 const Header = () => {
   return (
@@ -19,9 +20,9 @@ const Header = () => {
             </Nav>
 
             <Navbar.Collapse className="justify-content-end">
-              <Nav.Item>
+              <Nav.Item >
                 <Nav.Link href="#message">
-                  <i class=" fa-message-lines"></i>Login
+                <PersonCircle />
                 </Nav.Link>
               </Nav.Item>
             </Navbar.Collapse>

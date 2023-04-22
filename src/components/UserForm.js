@@ -8,20 +8,18 @@ const UserForm = () => {
         <Row>
           <Col md={8} className="d-flex align-items-center">
             <div>
-            <h3>We Offer 30,000+</h3>
-            <h3>Job Vacancies Right Now</h3>
-            <h6>Find Jobs, Employment & Career Opportunities</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <Button variant="primary" type="submit">
-              Get Started
-            </Button>
+              <h3 className="contrast-color">We Offer 30,000+</h3>
+              <h3 className="contrast-color">Job Vacancies Right Now</h3>
+              <h6 className="contrast-color">Find Jobs, Employment & Career Opportunities</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Button variant="info" type="submit">
+                Get Started
+              </Button>
             </div>
           </Col>
           <Col md={4} className="d-flex justify-items-center">
-            <div>
-              <p>FIND YOUR JOB</p>
+            <div style={{ width: "30rem" }}>
+              <h5 className="mt-3">FIND YOUR JOB</h5>
               <Form>
                 <Form.Group controlId="formName">
                   <Form.Label> </Form.Label>
@@ -32,9 +30,9 @@ const UserForm = () => {
                 </Form.Group>
                 <Form.Group controlId="formEmail">
                   <Form.Label> </Form.Label>
-                  <Form.Control type="email" placeholder="Location" />
+                  <Form.Control type="text" placeholder="Location" />
                 </Form.Group>
-                <Form.Group className="mb-3">
+                <Form.Group>
                   <Form.Label> </Form.Label>
                   <Form.Select>
                     <option>All Types</option>
@@ -46,9 +44,11 @@ const UserForm = () => {
                     <option>Choose a category</option>
                   </Form.Select>
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                  Search
-                </Button>
+                <div className="d-grid gap-2">
+                  <Button size="lg" variant="info" type="submit">
+                    Search
+                  </Button>
+                </div>
               </Form>
             </div>
           </Col>
